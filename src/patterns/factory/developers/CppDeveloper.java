@@ -1,4 +1,6 @@
-package patterns.factory;
+package patterns.factory.developers;
+
+import patterns.factory.Developer;
 
 public class CppDeveloper implements Developer {
 

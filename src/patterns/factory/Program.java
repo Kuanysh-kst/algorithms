@@ -1,5 +1,8 @@
 package patterns.factory;
 
+import patterns.factory.factories.CppDeveloperFactory;
+import patterns.factory.factories.JavaDeveloperFactory;
+
 public class Program {
     public static void main(String[] args) {
         DeveloperFactory developerFactory = createDeveloperBySpecialty("c++");
